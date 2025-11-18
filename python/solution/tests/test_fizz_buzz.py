@@ -1,6 +1,6 @@
 import pytest
 
-from fizz_buzz.solution.src.fizz_buzz import fizz_buzz
+from python.solution.src.fizz_buzz import fizz_buzz
 
 
 @pytest.mark.parametrize("number, expected", [(1, "1"), (2, "2"), (4, "4")])
